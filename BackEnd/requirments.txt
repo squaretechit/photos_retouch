@@ -1,0 +1,7 @@
+django==3.2.5
+pillow==9.1.1
+django-ckeditor==6.4.2
+django-admin-interface
+django-cors-headers==3.13.0
+djangorestframework==3.13.1
+djangorestframework-simplejwt-5.2.0
