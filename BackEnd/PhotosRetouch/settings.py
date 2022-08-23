@@ -50,7 +50,7 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'PhotosRetouch.urls'
 
-CORS_ALLOWED_ORIGINS = ('http://localhost:3000','http://127.0.0.1:8080', 'http://192.168.0.100:8080',)
+CORS_ALLOWED_ORIGINS = ('http://localhost:3000','http://127.0.0.1:8080',)
 
 TEMPLATES = [
     {
@@ -152,8 +152,8 @@ REST_FRAMEWORK = {
 # EMAIL Configurations
 EMAIL_HOST = "smtp.gmail.com"
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'mdshariffoysalshoron@gmail.com'
-EMAIL_HOST_PASSWORD = 'ejrhkcdbsbbzevve'
+EMAIL_HOST_USER = ''
+EMAIL_HOST_PASSWORD = ''
 EMAIL_USE_TLS = True
 EMAIL_USE_SSL = False
-ADMIN_EMAIL_FOR_NOTIFICATIONS = ['photosretouch.service@gmail.com']
+ADMIN_EMAIL_FOR_NOTIFICATIONS = ['']
